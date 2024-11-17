@@ -1,0 +1,23 @@
+EyeRefract
+{
+$basetexture "models/Cyberpunk2077Rex/SongSoMiRex/song_so_mi_mats/Eyes_D"
+$ambientoccltexture "models/Cyberpunk2077Rex/SongSoMiRex/song_so_mi_mats/Blank" 
+
+	$Iris "models/Cyberpunk2077Rex/SongSoMiRex/song_so_mi_mats/Eyes_D9" 
+	$Envmap "Engine/eye-reflection-cubemap-" 
+	$CorneaTexture 	"Engine/eye-reflection-cubemap-" 
+
+     $glossiness       "0.5"
+	$EyeballRadius "0.5" 
+	$AmbientOcclColor "[.33 .33 .33]"
+	$Dilation "0.5" 
+	$ParallaxStrength "0.35" 
+	$CorneaBumpStrength "0.1" 
+	$halflambert 1
+	$nodecal 1
+	$ambientocclusion 0
+
+	$RaytraceSphere 0
+	$SphereTexkillCombo 0
+$nodecal 1
+}
